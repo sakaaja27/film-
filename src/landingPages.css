@@ -1,0 +1,47 @@
+.MyBg {
+    height: 100vh;
+    background-color: #000000;
+    background-image: linear-gradient(225deg, #000000 0%, #294b55 50%, #7e1621 100%);
+    background-size: cover;
+}
+.trending {
+    height: auto;
+    background:url("/src/assets/img/trending/bg.jpg");
+    background-size: cover;
+}
+
+.Intro {
+    height: 100px;
+    display: flex;
+   
+}
+.ImgSlide {
+    height: auto;
+    display: inline-flex;
+    cursor: pointer;
+}
+.Img {
+    width: 800px;
+    display:flex ;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 3px;
+}
+.Buttonhome{
+    margin-top: 4vh;
+    text-align: center;
+}
+
+.movieTrend{
+    height: auto;
+    background-color:white;
+    margin: 5px;
+    padding: 5px;
+}
+.ImagesTrend{
+    height: 500px;
+}
